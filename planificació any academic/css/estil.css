@@ -1,0 +1,98 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: lightgrey;
+}
+
+a, p{
+	text-decoration: none;
+}
+
+/***************************** Encabezamiento *****************************/
+
+div.encabezamiento{
+	width: 100%;
+	background-image: ondasazules.jpg;
+}
+
+div.logo{
+	text-align: left;
+	padding-bottom: .3em;
+	padding-top: .3em;
+	margin-left: 7%;
+}
+
+img.logo{
+
+	width: 10%;
+	height: 10%;
+}
+
+/***************************** Botones *****************************/
+
+div.fbotones{
+	background-color : white;
+	color: black;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	text-align: center;
+}
+	
+div.menu_boton{
+	font-weight: bold;
+	width: 19%;
+	float: left;
+}
+
+div.menu_boton:hover{
+	background-color: grey;
+}
+
+a.boton{
+	text-align : center;
+	text-transform: uppercase;
+}
+
+/***************************** Cuerpo *****************************/
+
+div.cuerpo{
+	width: 80%;
+	margin-left: 10%;
+	background-color: white;
+	float: left;
+}
+
+	/*************** Display ***************/
+
+	div.display{
+    	width: 80%;
+    	height: 20em; /* Esto hay que quitarlo */
+    	float: left;
+	}
+	
+	/*************** Publi ***************/
+
+	div.publi{
+    	width: 19%;
+    	height: 20em; /* Esto hay que quitarlo */
+    	border: thin solid grey;
+    	float: left;
+	}
+	
+/***************************** Info mini *****************************/
+
+div.info_mini{
+	background-color: white;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	border-top: thin solid lightgrey;
+	padding: .3em 0 .3em 0;
+	float: left;
+}
+
+span.texto_infomini{
+	font-size: small;
+	font-weight: bold;
+}
