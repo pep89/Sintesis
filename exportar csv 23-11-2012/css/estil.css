@@ -1,0 +1,154 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: lightgrey;
+}
+
+a, p{
+	text-decoration: none;
+}
+
+/***************************** Encabezamiento *****************************/
+
+div.encabezamiento{
+	width: 100%;
+	background-image: ondasazules.jpg;
+}
+
+div.logo{
+	text-align: left;
+	padding-bottom: .3em;
+	padding-top: .3em;
+	margin-left: 7%;
+}
+
+img.logo{
+
+	width: 10%;
+	height: 10%;
+}
+
+/***************************** Botones *****************************/
+
+div.fbotones{
+	background-color : white;
+	color: black;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	text-align: center;
+}
+	
+div.menu_boton{
+	font-weight: bold;
+	width: 19%;
+	float: left;
+}
+
+div.menu_boton:hover{
+	background-color: grey;
+}
+
+a.boton{
+	text-align : center;
+	text-transform: uppercase;
+}
+
+/***************************** Cuerpo *****************************/
+
+div.cuerpo{
+	width: 80%;
+	margin-left: 10%;
+	background-color: white;
+	float: left;
+	min-height: 400px;
+	padding-top: 5em;
+}
+
+	/*************** Display ***************/
+
+	div.display{
+    	width: 80%;
+    	min-height: 20em; /* Esto hay que quitarlo */
+    	float: left;
+		padding-top: 5em;
+		margin-bottom: 3em;
+	}
+	
+	
+	/*****************table****************/
+	a.formulario{
+		background-color: white;
+		margin-top:10em;
+		margin-left:15%;
+		border-right:1px dotted #666;
+		border:3px solid #666;
+		-moz-box-shadow:0px -1px 4px #000;
+		-webkit-box-shadow:0px -1px 4px #000;
+		box-shadow:0px -1px 4px #000;
+		font-size: 9pt;
+		padding: 0.5em;
+		text-decoration: none;
+		margin-bottom: 3em;
+		
+	}
+	
+	.display form{
+		
+		border-right:1px dotted #666;
+		/* border-top:3px solid #666;*/
+		-moz-box-shadow:0px -1px 4px #000;
+		-webkit-box-shadow:0px -1px 4px #000;
+		box-shadow:0px -1px 4px #000;
+		/* margin-bottom: 15%;*/
+		width: 80%;
+		margin-left: 10%;
+		min-height: 15%;
+		padding-left: 3%;
+		margin-top: -0.75em;
+		padding-top: 3em;
+		padding-bottom: 2em;
+		z-index: -1,5;
+	}
+	
+	
+	.display select{
+		margin-left: 3%;
+		margin-bottom: 3%;
+	}
+	
+	.display input{
+		margin-left: 3%;
+	}
+	
+	.pform{
+	
+		font-size: 9pt;
+		margin-left: 3%;
+	}
+	
+	/*************** Publi ***************/
+
+	div.publi{
+    	width: 19%;
+    	height: 20em; /* Esto hay que quitarlo */
+    	border: thin solid grey;
+    	float: left;
+	}
+	
+/***************************** Info mini *****************************/
+
+div.info_mini{
+	background-color: white;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	border-top: thin solid lightgrey;
+	padding: .3em 0 .3em 0;
+	float: left;
+}
+
+span.texto_infomini{
+	font-size: small;
+	font-weight: bold;
+}
