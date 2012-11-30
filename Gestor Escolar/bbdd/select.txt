@@ -1,0 +1,18 @@
+SELECT A.any, C.nom, C.acronim, CL.nom, CL.codi, CL.hores, GR.nom, GR.hores
+FROM any_academic A, cursos C, clases CL, grups GR
+WHERE GR.id_any = A.id
+AND GR.id_curs = C.id
+AND GR.id_clase = CL.id
+
+
+
+SELECT A.any AS any, C.nom AS nomcurs, C.acronim AS acronimcurs, CL.id, CL.nom AS nomclase, CL.codi AS codiclase, CL.hores AS horesclase
+FROM any_academic A, cursos C, clases CL
+WHERE CL.id_any = A.id
+AND CL.id_curs = C.id
+AND Cl.id NOT
+IN (
+
+SELECT id_clase
+FROM grups
+)

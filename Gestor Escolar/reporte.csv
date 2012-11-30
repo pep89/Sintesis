@@ -1,0 +1,5 @@
+"id";"año";"Nombre del curso";"Acronimo";"Nombre de la clase";"Codigo de la clase";"Horas totales por clase";"Nombre del grupo";"Horas semanales por grupo"
+1;2013;"Desenvolupament de aplicacions Informatiques";"DAI";"Programació Orientada a objectes";"POO";7;"A";3
+2;2013;"Desenvolupament de aplicacions Informatiques";"DAI";"Programació Orientada a objectes";"POO";7;"B";4
+3;2014;"Administracio de sistemes informatics";"ASI";"XARXES";"XAR";70;"A";3
+4;2013;"Administracio de sistemes informatics";"ASI";"Sistemes";"SIM";60;;
